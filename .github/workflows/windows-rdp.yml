@@ -3,6 +3,8 @@ name: EnigMano Instance Deployment
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
     inputs:
       instance_number:
         description: 'Instance Number (1-10)'
