@@ -1,6 +1,5 @@
 
 name: EnigMano Instance Deployment
-
 on:
   workflow_dispatch:
     inputs:
