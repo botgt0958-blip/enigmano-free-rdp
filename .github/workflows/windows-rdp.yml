@@ -83,8 +83,7 @@ jobs:
         Write-Host "Configuring Chrome with security extensions..." -ForegroundColor Green
         
         # Create Chrome preferences for extensions
-        $ChromePrefs = @"
-{
+        $ChromePrefs = @"{
   "extensions": {
     "settings": {
       "cjpalhdlnbpafiamejdnhcphjbkeiagm": {
